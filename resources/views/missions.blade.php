@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Startup - Startup Website Template</title>
+    <title>Association des Acteurs de l'Assainissement du Sénégal</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -26,7 +26,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ asset('css/autre.css') }}" rel="stylesheet">
+    
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -41,7 +41,7 @@
 
 
      <!-- Topbar Start -->
-     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+     <div class="container-fluid bg-primary px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
@@ -71,7 +71,7 @@ BP 13 492 Grand Yoff
     <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="{{route('home')}}" class="navbar-brand p-0">
-                <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Aaas</h1>
+                <h1 class="m-0"><i class="fa fa-users me-2"></i>Aaas</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -137,7 +137,7 @@ BP 13 492 Grand Yoff
     <div class="container py-5">
         <div class="text-center mb-5">
             <h1 class="mb-3">Objectifs Stratégiques & Actions Prioritaires</h1>
-            <p>Découvrez comment l'AAAS agit pour structurer et moderniser le secteur de l'assainissement au Sénégal.</p>
+            <p style="color: white;">Découvrez comment l'AAAS agit pour structurer et moderniser le secteur de l'assainissement au Sénégal.</p>
         </div>
         <div class="row g-4">
 
@@ -333,6 +333,7 @@ BP 13 492 Grand Yoff
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <img src="img/aaas.jpeg" alt="Logo Aaas" class="site-logo">
 </body>
 
 </html>

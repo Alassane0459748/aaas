@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Startup - Startup Website Template</title>
+    <title>Association des Acteurs de l'Assainissement du Sénégal</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -26,7 +26,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ asset('css/autre.css') }}" rel="stylesheet">
+    
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -41,7 +41,7 @@
 
 
      <!-- Topbar Start -->
-     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+     <div class="container-fluid bg-primary px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
@@ -71,7 +71,7 @@ BP 13 492 Grand Yoff
     <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="{{route('home')}}" class="navbar-brand p-0">
-                <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Aaas</h1>
+                <h1 class="m-0"><i class="fa fa-users me-2"></i>Aaas</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -133,7 +133,7 @@ BP 13 492 Grand Yoff
 
 
    <!-- Contact Start -->
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #f2f2f2;">
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
             <h1 class="mb-0">Pour plus d'information, Contactez-Nous</h1>
@@ -157,6 +157,12 @@ BP 13 492 Grand Yoff
                     </div>
                     <h5>Email</h5>
                     <h6 class="text-light">ibrasow@aaas.com</h6>
+                    <h6 class="text-light">aaas@aaas.com ( secrétariat général) 
+</h6>
+                    <h6 class="text-light">tresorier@aaas.com 
+                    </h6>
+                    <h6 class="text-light">infos@aaas.com 
+                    </h6>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -308,6 +314,7 @@ BP 13 492 Grand Yoff
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <img src="img/aaas.jpeg" alt="Logo Aaas" class="site-logo">
 </body>
 
 </html>

@@ -26,7 +26,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ asset('css/autre.css') }}" rel="stylesheet">
+   
 
 
     <!-- Template Stylesheet -->
@@ -42,7 +42,7 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+    <div class="container-fluid bg-primary px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
@@ -72,7 +72,7 @@ BP 13 492 Grand Yoff
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="{{route('home')}}" class="navbar-brand p-0">
-                <h1 class="m-0"><i class="fa fa-users me-2"></i>
+                <h1 class="m-0"><i class="fa fa-users me-2">
                 </i>Aaas</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -91,20 +91,21 @@ BP 13 492 Grand Yoff
         </nav>
 
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img class="w-100" src="img/bac2.jpg" alt="Image" style="height: 900px; object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Association des Acteurs de l'Assainissement du Sénégal (AAAS)</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn"> Ensemble pour un environnement sain.
-                            </h1>
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="position: relative;">
+            <img class="w-100" src="img/bac4.jpg" alt="Image" style="height: 800px; object-fit: cover;">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3" style="max-width: 900px;">
+                    <p class="slogan">
+                        L'assainissement durable, notre engagement commun.
+                    </p>
 
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
     </div>
     <!-- Navbar & Carousel End -->
 
@@ -134,7 +135,7 @@ BP 13 492 Grand Yoff
                     <div class="section-title position-relative pb-3 mb-5">
                         <h1 class="mb-0">Bienvenue sur le site de l'AAAS, le regroupement des professionnels de l'assainissement au Sénégal.</h1>
                     </div>
-                    <p class="mb-4">Créée en 2007, notre association œuvre pour la structuration et la modernisation d'un secteur vital pour la santé publique et l'environnement. Forts de plus de 100 membres à travers le pays, nous nous engageons à professionnaliser nos métiers, à améliorer la qualité de nos services et à relever les défis de l'assainissement autonome, qui concerne 70% de la population sénégalaise. Découvrez nos missions, nos projets innovants et notre engagement pour un cadre de vie plus salubre pour tous.  
+                    <p class="mb-4" style="color: white;">Créée en 2007, notre association œuvre pour la structuration et la modernisation d'un secteur vital pour la santé publique et l'environnement. Forts de plus de 100 membres à travers le pays, nous nous engageons à professionnaliser nos métiers, à améliorer la qualité de nos services et à relever les défis de l'assainissement autonome, qui concerne 70% de la population sénégalaise. Découvrez nos missions, nos projets innovants et notre engagement pour un cadre de vie plus salubre pour tous.  
                     </p>
                     <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
@@ -142,7 +143,7 @@ BP 13 492 Grand Yoff
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Contactez-Nous </h5>
-                            <h4 class="text-primary mb-0">+221338671695</h4>
+                            <h4 class="mb-0" style="color: white;">+221338671695</h4>
                         </div>
                     </div>
                    </div>
@@ -165,7 +166,7 @@ BP 13 492 Grand Yoff
     <div class="container py-5">
         <div class="text-center mb-5">
             <h1 class="mb-3">Nos Missions</h1>
-            <p class="mb-0">Découvrez comment l'AAAS agit pour moderniser le secteur de l'assainissement au Sénégal.</p>
+            <p class="mb-0" style="color: white;">Découvrez comment l'AAAS agit pour moderniser le secteur de l'assainissement au Sénégal.</p>
         </div>
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -201,11 +202,11 @@ BP 13 492 Grand Yoff
 <!-- Services / Nos Missions End -->
 
 <!-- Actualités Start -->
-<div class="container-fluid py-5 bg-light wow fadeInUp" data-wow-delay="0.1s">
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="text-center mb-5">
             <h1 class="mb-3">Actualités</h1>
-            <p class="mx-auto" style="max-width: 700px;">
+            <p class="mx-auto" style="max-width: 700px; color: white;">
                 Découvrez les dernières nouvelles, initiatives et projets menés par l'Association des Acteurs de l'Assainissement du Sénégal. 
                 Nous partageons ici les moments forts de notre engagement pour un environnement plus propre et durable.
             </p>
@@ -378,6 +379,8 @@ BP 13 492 Grand Yoff
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <img src="img/aaas.jpeg" alt="Logo Aaas" class="site-logo">
+
 </body>
 
 </html>

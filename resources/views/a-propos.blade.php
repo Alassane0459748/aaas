@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Startup - Startup Website Template</title>
+    <title>Association des Acteurs de l'Assainissement du Sénégal</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -26,7 +26,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ asset('css/autre.css') }}" rel="stylesheet">
+   
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -41,7 +41,7 @@
 
 
      <!-- Topbar Start -->
-     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+     <div class="container-fluid bg-primary px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
@@ -71,7 +71,7 @@ BP 13 492 Grand Yoff
     <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="{{route('home')}}" class="navbar-brand p-0">
-                <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Aaas</h1>
+                <h1 class="m-0"><i class="fa fa-users me-2"></i>Aaas</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -141,7 +141,7 @@ BP 13 492 Grand Yoff
                         <h1 class="mb-0">​Notre Histoire
                         </h1>
                     </div>
-                    <p class="mb-4">​L’Association des Acteurs de l’Assainissement du Sénégal (AAAS) a été fondée en 2007 à l'initiative des propriétaires de camions de vidange. Reconnue officiellement le 10 septembre 2008 à Dakar sous le récépissé N°13557/MINT/DAGAT, l'AAAS est une association à but non lucratif. Initialement un regroupement de vidangeurs, elle s'est aujourd'hui élargie pour inclure tous les acteurs de la filière assainissement.  
+                    <p class="mb-4" style="color: white;">​L’Association des Acteurs de l’Assainissement du Sénégal (AAAS) a été fondée en 2007 à l'initiative des propriétaires de camions de vidange. Reconnue officiellement le 10 septembre 2008 à Dakar sous le récépissé N°13557/MINT/DAGAT, l'AAAS est une association à but non lucratif. Initialement un regroupement de vidangeurs, elle s'est aujourd'hui élargie pour inclure tous les acteurs de la filière assainissement.  
                     </p>
                     </div>
                     <div class="col-lg-5" style="min-height: 400px;">
@@ -167,39 +167,39 @@ BP 13 492 Grand Yoff
                 <div class="col-lg-4">
                     <div class="row g-5">
                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-dark rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-cubes text-white"></i>
                             </div>
                             <h4>Notre Vision : Un Projet de Société
                             </h4>
-                            <p class="mb-0">​Notre objectif général est de bâtir une organisation forte, composée de membres formés et formalisés, afin de rentabiliser nos activités et de transformer positivement le secteur. Nous sommes conscients que la majorité des acteurs évoluent dans l'informel avec un personnel non qualifié. C'est pourquoi nos priorités incluent la formation, la formalisation des entreprises et l'accès au crédit pour le renforcement des capacités humaines et matérielles.  
+                            <p class="mb-0" style="color: white;">​Notre objectif général est de bâtir une organisation forte, composée de membres formés et formalisés, afin de rentabiliser nos activités et de transformer positivement le secteur. Nous sommes conscients que la majorité des acteurs évoluent dans l'informel avec un personnel non qualifié. C'est pourquoi nos priorités incluent la formation, la formalisation des entreprises et l'accès au crédit pour le renforcement des capacités humaines et matérielles.  
                             </p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-dark rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-users-cog text-white"></i>
                             </div>
                             <h4>​Nos Membres
                             </h4>
-                            <p class="mb-0">À ce jour, l'AAAS est fière de compter plus de cent (100) membres répartis dans toutes les régions du Sénégal. Collectivement, nos membres gèrent une flotte d'environ deux cent cinquante (250) camions hydrocureurs, jouant un rôle essentiel dans la salubrité publique.  
+                            <p class="mb-0" style="color: white;">À ce jour, l'AAAS est fière de compter plus de cent (100) membres répartis dans toutes les régions du Sénégal. Collectivement, nos membres gèrent une flotte d'environ deux cent cinquante (250) camions hydrocureurs, jouant un rôle essentiel dans la salubrité publique.  
                                 </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/feature.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/re.jpeg" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="row g-5">
                         <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-dark rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                             <i class="fa fa-award text-white"></i>
                             </div>
                             <h4>​Nos Domaines d'Intervention
                             </h4>
-                            <p class="mb-0">Nos compétences sont variées et couvrent l'ensemble de la chaîne de l'assainissement:<br>  
+                            <p class="mb-0" style="color: white;">Nos compétences sont variées et couvrent l'ensemble de la chaîne de l'assainissement:<br>  
                                 ​Vidange des fosses septiques.<br>  
                                 ​Entretien et curage de réseaux d’assainissement (eaux usées et pluviales).<br>  
                                 ​Entretien de stations de traitement des boues de vidange.<br>  
@@ -208,12 +208,12 @@ BP 13 492 Grand Yoff
                                 ​Pompage des eaux de pluies.  </p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-dark rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-phone-alt text-white"></i>
                             </div>
                             <h4>​Nos Partenaires
                             </h4>
-                            <p class="mb-0">​La réussite de nos missions repose sur une collaboration étroite avec les acteurs institutionnels et locaux. Nous travaillons en lien étroit avec l'Office National de l'Assainissement du Sénégal (ONAS), et nous sommes impliqués dans tous les programmes et projets mis en œuvre par ce dernier. Nous collaborons également avec les mairies, les associations de quartiers et des partenaires techniques et financiers internationaux.  
+                            <p class="mb-0" style="color: white;">​La réussite de nos missions repose sur une collaboration étroite avec les acteurs institutionnels et locaux. Nous travaillons en lien étroit avec l'Office National de l'Assainissement du Sénégal (ONAS), et nous sommes impliqués dans tous les programmes et projets mis en œuvre par ce dernier. Nous collaborons également avec les mairies, les associations de quartiers et des partenaires techniques et financiers internationaux.  
                             </p>
                         </div>
                     </div>
@@ -319,6 +319,7 @@ BP 13 492 Grand Yoff
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <img src="img/aaas.jpeg" alt="Logo Aaas" class="site-logo">
 </body>
 
 </html>
