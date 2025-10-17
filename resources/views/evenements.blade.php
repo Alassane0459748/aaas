@@ -54,12 +54,10 @@ BP 13 492 Grand Yoff
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+            <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://x.com/AaasSenegal"><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in fw-normal"></i></a>
                 </div>
             </div>
         </div>
@@ -143,7 +141,7 @@ BP 13 492 Grand Yoff
         <!-- Événement à venir -->
         <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.2s">
             <div class="card h-100 shadow border-0 rounded-3 overflow-hidden">
-                <img src="{{ asset('img/formation.jpg') }}" class="card-img-top" alt="Formation AAAS">
+                <img src="{{ asset('img/img8.jpeg') }}" class="card-img-top" alt="Formation AAAS">
                 <div class="card-body p-4">
                     <span class="badge bg-success mb-2 px-3 py-2">À venir</span>
                     <h5 class="card-title text-primary fw-bold mb-3">
@@ -164,7 +162,7 @@ BP 13 492 Grand Yoff
         <!-- Événement passé -->
         <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.4s">
             <div class="card h-100 shadow border-0 rounded-3 overflow-hidden">
-                <img src="{{ asset('img/parc.jpg') }}" class="card-img-top" alt="Lancement du PARC">
+                <img src="{{ asset('img/img2.jpg') }}" class="card-img-top" alt="Lancement du PARC">
                 <div class="card-body p-4">
                     <span class="badge bg-secondary mb-2 px-3 py-2">Événement passé</span>
                     <h5 class="card-title text-primary fw-bold mb-3">
@@ -202,14 +200,13 @@ BP 13 492 Grand Yoff
                             L'AAAS regroupe les professionnels de l'assainissement au Sénégal et œuvre pour la modernisation du secteur, la qualité des services et le bien-être de la population.
                         </p>
                         <form class="d-flex mb-3" action="">
-                            <input type="email" class="form-control me-2 border-0 rounded" placeholder="Votre email">
-                            <button class="btn btn-dark rounded">S'inscrire</button>
+                            <input type="email" class="form-control me-2 border-0 rounded" placeholder="Commentez">
+                            <button class="btn btn-dark rounded">Envoyer</button>
                         </form>
                         <div class="d-flex justify-content-center gap-2">
-                            <a class="btn btn-light btn-square rounded-circle" href="#"><i class="fab fa-twitter text-primary"></i></a>
-                            <a class="btn btn-light btn-square rounded-circle" href="#"><i class="fab fa-facebook-f text-primary"></i></a>
-                            <a class="btn btn-light btn-square rounded-circle" href="#"><i class="fab fa-linkedin-in text-primary"></i></a>
-                            <a class="btn btn-light btn-square rounded-circle" href="#"><i class="fab fa-instagram text-primary"></i></a>
+                            <a class="btn btn-light btn-square rounded-circle" href="https://x.com/AaasSenegal"><i class="fab fa-twitter text-primary"></i></a>
+                            <a class="btn btn-light btn-square rounded-circle" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a class="btn btn-light btn-square rounded-circle" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in text-primary"></i></a>
                         </div>
                     </div>
                 </div>
@@ -232,10 +229,9 @@ BP 13 492 Grand Yoff
                     <p class="mb-0">+221 33 867 16 95</p>
                 </div>
                 <div class="d-flex gap-3 mt-3">
-                    <a class="btn btn-primary btn-sm rounded" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-primary btn-sm rounded" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-primary btn-sm rounded" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-primary btn-sm rounded" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-primary btn-sm rounded" href="https://x.com/AaasSenegal"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-primary btn-sm rounded" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-primary btn-sm rounded" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in"></i></a>    
                 </div>
             </div>
 
@@ -256,14 +252,14 @@ BP 13 492 Grand Yoff
 
     <!-- Footer Bottom -->
     <div class="container-fluid text-white" style="background: #061429;">
-        <div class="container text-center py-3">
-            <p class="mb-0" style="font-size: 0.9rem;">
-                &copy; 2025 <strong>AAAS</strong>. Tous droits réservés. 
-                Design by <a class="text-white" href="https://htmlcodex.com" target="_blank">HTML Codex</a>, 
-                Distributed by <a class="text-white" href="https://themewagon.com" target="_blank">ThemeWagon</a>
-            </p>
-        </div>
+    <div class="container text-center py-3">
+        <p class="mb-0" style="font-size: 0.9rem;">
+            &copy; 2025 <strong>AAAS Sénégal</strong>. Tous droits réservés.  
+            Association des Acteurs de l’Assainissement du Sénégal – Engagement pour la modernisation du secteur et la qualité des services.
+        </p>
     </div>
+</div>
+
 </div>
 <!-- Footer End -->
 
@@ -283,7 +279,7 @@ BP 13 492 Grand Yoff
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <img src="img/aaas.jpeg" alt="Logo Aaas" class="site-logo">
+    <img src="img/logo2.jpeg" alt="Logo Aaas" class="site-logo">
 </body>
 
 </html>

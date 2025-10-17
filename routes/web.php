@@ -11,3 +11,4 @@ Route::get('/missions', [AaasController::class, 'missions'])->name('missions');
 Route::get('/actualites', [AaasController::class, 'actualites'])->name('actualites');
 Route::get('/evenements', [AaasController::class, 'evenements'])->name('evenements');
 Route::get('/contact', [AaasController::class, 'contact'])->name('contact');
+Route::post('/contact', [AaasController::class, 'send'])->name('contact.send');
