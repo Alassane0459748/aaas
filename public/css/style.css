@@ -69,24 +69,7 @@ body::before {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Lato:wght@600&family=Poppins:wght@600&display=swap');
 
-/* Logo fixe en bas à droite sur toutes les pages */
-.site-logo {
-    position: fixed;
-    bottom: 20px; /* distance du bas */
-    right: 20px;  /* distance de la droite */
-    width: 60px; /* largeur entre 150-180px */
-    max-width: 100px;
-    height: auto;
-    z-index: 1000; /* au-dessus de tous les contenus */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* légère ombre portée */
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
 
-/* Optionnel : effet au survol */
-.site-logo:hover {
-    transform: scale(1.05);
-    opacity: 0.9;
-}
 .btn-outline-light:hover {
     background-color: #fff !important;
     color: var(--primary) !important;

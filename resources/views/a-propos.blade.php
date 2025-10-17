@@ -45,11 +45,10 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Dakar Banlieue 06, Cité Assane DIOP
-BP 13 492 Grand Yoff
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Maristes lot N°R22 DAKAR-Senegal,
 </small>
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+221.33867.16.95 </small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>ibrasow@aaas.com
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>infos@aaas.com
                     </small>
                 </div>
             </div>
@@ -142,12 +141,13 @@ BP 13 492 Grand Yoff
                     <p class="mb-4" style="color: white;">​L’Association des Acteurs de l’Assainissement du Sénégal (AAAS) a été fondée en 2007 à l'initiative des propriétaires de camions de vidange. Reconnue officiellement le 10 septembre 2008 à Dakar sous le récépissé N°13557/MINT/DAGAT, l'AAAS est une association à but non lucratif. Initialement un regroupement de vidangeurs, elle s'est aujourd'hui élargie pour inclure tous les acteurs de la filière assainissement.  
                     </p>
                     </div>
-                    <div class="col-lg-5" style="min-height: 400px;">
-    <div class="position-relative h-100">
-        <img class="position-absolute w-100 h-100 rounded wow zoomIn"
+                    <div class="col-lg-5" style="min-height: 100px;">
+    <div class="d-flex align-items-center justify-content-center h-100 w-100" style="background-color: #fff; border-radius: 10px; overflow: hidden;">
+        <img src="img/aaas.jpeg"
+             alt="Image AAAS"
+             class="wow zoomIn"
              data-wow-delay="0.9s"
-             src="img/aaas.jpeg"
-             style="object-fit: contain; background-color: #f8f9fa; padding: 10px;">
+             style="max-width: 100%; max-height: 100%; object-fit: contain; border-radius: inherit;">
     </div>
 </div>
             </div>
@@ -309,12 +309,11 @@ BP 13 492 Grand Yoff
                 <h5 class="text-light mb-4">Contactez-Nous</h5>
                 <div class="d-flex mb-3">
                     <i class="fa fa-map-marker-alt text-primary me-3"></i>
-                    <p class="mb-0">Dakar Banlieue 06, Cité Assane DIOP
-                    BP 13 492 Grand Yoff</p>
+                    <p class="mb-0">Maristes lot N°R22 DAKAR-Senegal,</p>
                 </div>
                 <div class="d-flex mb-3">
                     <i class="fa fa-envelope text-primary me-3"></i>
-                    <p class="mb-0">ibrasow@aaas.com</p>
+                    <p class="mb-0">infos@aaas.com</p>
                 </div>
                 <div class="d-flex mb-3">
                     <i class="fa fa-phone text-primary me-3"></i>
@@ -371,7 +370,42 @@ BP 13 492 Grand Yoff
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <img src="img/logo2.jpeg" alt="Logo Aaas" class="site-logo">
+    <div class="logo-card">
+    <img src="img/logo.jpeg" alt="Logo Aaas" class="site-logo">
+</div>
+
+<style>
+/* Card fixe en bas à droite */
+.logo-card {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px; /* taille totale du card */
+    height: 90px;
+    border-radius: 20px;
+    overflow: hidden; /* pour que le logo suive les bords arrondis */
+    box-shadow: 0 4px 15px  #27D3F5;
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #27D3F5; /* couleur de fond au cas où l'image ne charge pas */
+}
+
+/* Effet au survol */
+.logo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Logo zoomé fortement pour centrer le motif principal */
+.site-logo {
+    width: 250%;          /* zoom d’environ 2,5x */
+    height: 250%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transform: translate(-30%, -30%); /* recadrage pour garder le centre */
+}
+</style>
 </body>
 
 </html>
