@@ -209,7 +209,7 @@
 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
     <div class="card border-0 shadow-sm rounded overflow-hidden" style="min-height: 400px;">
         <iframe class="w-100 h-100"
-            src="https://www.google.com/maps?q=Maristes,+Dakar,+Sénégal&hl=fr&z=16&output=embed"
+            src="https://www.google.com/maps?q=14.742027,-17.429895&hl=fr&z=16&output=embed"
             frameborder="0"
             style="border:0; min-height: 400px;"
             allowfullscreen=""
@@ -218,6 +218,7 @@
         </iframe>
     </div>
 </div>
+
 
 
 
@@ -333,11 +334,6 @@
 </div>
 <!-- Footer End -->
 
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -359,11 +355,11 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 80px; /* taille totale du card */
-    height: 90px;
-    border-radius: 20px;
+    width: 50px; /* taille totale du card réduite */
+    height: 60px;
+    border-radius: 15px;
     overflow: hidden; /* pour que le logo suive les bords arrondis */
-    box-shadow: 0 4px 15px  #27D3F5;
+    box-shadow: 0 3px 10px #27D3F5;
     z-index: 1000;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background: #27D3F5; /* couleur de fond au cas où l'image ne charge pas */
@@ -371,19 +367,20 @@
 
 /* Effet au survol */
 .logo-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.07);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
 }
 
 /* Logo zoomé fortement pour centrer le motif principal */
 .site-logo {
-    width: 250%;          /* zoom d’environ 2,5x */
-    height: 250%;
+    width: 160%;          
+    height: 160%;
     object-fit: cover;
     object-position: center;
     display: block;
-    transform: translate(-30%, -30%); /* recadrage pour garder le centre */
+    transform: translate(-16%, -16%); /* recadre pour centrer visuellement le milieu du logo */
 }
+
 </style>
 </body>
 
