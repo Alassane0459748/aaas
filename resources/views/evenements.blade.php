@@ -137,10 +137,68 @@
     </div>
 
     <div class="row g-4">
-        <!-- Événement à venir -->
-        <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.2s">
+
+        <!-- Nouvel Événement : Projet PARC -->
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="card h-100 shadow border-0 rounded-3 overflow-hidden">
-                <img src="{{ asset('img/img8.jpeg') }}" class="card-img-top" alt="Formation AAAS">
+                <!-- Carrousel d’images -->
+                <div id="carouselParc" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{ asset('img/n1.jpeg') }}" class="card-img-top"
+                                alt="Formation AAAS"
+                                style="height: 250px; width: 100%; object-fit: cover;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset('img/n2.jpeg') }}" class="card-img-top"
+                                alt="Formation AAAS"
+                                style="height: 250px; width: 100%; object-fit: cover;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset('img/n3.jpeg') }}" class="card-img-top"
+                                alt="Formation AAAS"
+                                style="height: 250px; width: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Corps de la carte -->
+                <div class="card-body p-4">
+                    <span class="badge bg-info mb-2 px-3 py-2 text-dark">Nouveau</span>
+                    <h5 class="card-title text-primary fw-bold mb-3">
+                        Le Projet PARC se concrétise : 40 nouveaux camions pour moderniser le secteur de la vidange
+                    </h5>
+                    <p class="card-text text-muted">
+                        La modernisation du secteur de la gestion des boues de vidange est en marche. Les photos ci-dessous 
+                        immortalisent la cérémonie de remise des 40 premiers camions neufs acquis dans le cadre du 
+                        <strong>Projet d’Appui au Renouvellement des Camions de Vidange (PARC)</strong>.
+                    </p>
+                    <p class="card-text text-muted">
+                        Initié en 2021, ce programme ambitieux est le fruit d’une collaboration stratégique entre 
+                        l’<strong>ONAS</strong>, la <strong>DER/FJ</strong> et notre association, l’<strong>AAAS</strong>, 
+                        avec le soutien financier de l’<strong>USAID Wash-Fin</strong> et de la 
+                        <strong>Fondation Bill & Melinda Gates (BMGF)</strong>.
+                    </p>
+                    <p class="card-text text-muted">
+                        Cette première flotte, financée par une enveloppe de <strong>2 milliards de francs CFA</strong>, 
+                        marque le début du remplacement de 254 camions vétustes. C’est une avancée majeure pour 
+                        professionnaliser nos acteurs et garantir un service d’assainissement digne et efficace pour 
+                        tous les Sénégalais.
+                    </p>
+                </div>
+
+                <div class="card-footer bg-light border-0 text-end">
+                    <small class="text-primary fw-semibold">📅 2025</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Événement à venir -->
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="card h-100 shadow border-0 rounded-3 overflow-hidden">
+                <img src="{{ asset('img/img8.jpeg') }}" class="card-img-top"
+                    alt="Formation AAAS"
+                    style="height: 250px; width: 100%; object-fit: cover;">
                 <div class="card-body p-4">
                     <span class="badge bg-success mb-2 px-3 py-2">À venir</span>
                     <h5 class="card-title text-primary fw-bold mb-3">
@@ -159,9 +217,11 @@
         </div>
 
         <!-- Événement passé -->
-        <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="card h-100 shadow border-0 rounded-3 overflow-hidden">
-                <img src="{{ asset('img/img2.jpg') }}" class="card-img-top" alt="Lancement du PARC">
+                <img src="{{ asset('img/img2.jpg') }}" class="card-img-top"
+                    alt="Lancement du PARC"
+                    style="height: 250px; width: 100%; object-fit: cover;">
                 <div class="card-body p-4">
                     <span class="badge bg-secondary mb-2 px-3 py-2">Événement passé</span>
                     <h5 class="card-title text-primary fw-bold mb-3">
@@ -178,6 +238,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 <!-- Section Événements End -->
