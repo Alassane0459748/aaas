@@ -80,6 +80,7 @@
                     <a href="{{route('home')}}" class="nav-item nav-link active">Accueil</a>
                     <a href="{{route('a-propos')}}" class="nav-item nav-link">A propos</a>
                     <a href="{{route('missions')}}"  class="nav-item nav-link">Nos missions</a>
+                    <a href="{{route('partenaires')}}"  class="nav-item nav-link">Nos partenaires</a>
                     <a href="{{route('actualites')}}"  class="nav-item nav-link">Actualités</a>
                     <a href="{{route('evenements')}}"  class="nav-item nav-link">Evenements</a>
                     <a href="{{route('contact')}}"  class="nav-item nav-link">Contact</a>

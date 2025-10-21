@@ -99,10 +99,10 @@
     
     <div class="row py-5" style="position: relative; z-index: 1;">
         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-            <h1 class="display-4 text-white animated zoomIn">Actualités</h1>
+            <h1 class="display-4 text-white animated zoomIn">Partenaires</h1>
             <a href="" class="h5 text-white">Accueil</a>
             <i class="far fa-circle text-white px-2"></i>
-            <a href="" class="h5 text-white">Actualités</a>
+            <a href="" class="h5 text-white">partenaires</a>
         </div>
     </div>
 </div>
@@ -129,62 +129,131 @@
     </div>
     <!-- Full Screen Search End -->
 
-
-<!-- Actualités Start -->
-<div class="container py-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="text-center mb-5">
-        <h1 class="mb-3">Nos Actualités</h1>
-        <p style="color: white;">Découvrez les projets récents, partenariats et initiatives de l'AAAS pour un assainissement durable au Sénégal.</p>
+    <!-- Section Nos Partenaires -->
+<div class="container py-5">
+    <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.2s">
+        <h1 class="text-dark fw-bold mb-3">Nos Partenaires</h1>
+        <p style="color: white;">
+            L'Association des Acteurs de l'Assainissement du Sénégal (AAAS) est convaincue que la transformation de notre secteur repose sur une collaboration étroite et des synergies fortes. 
+            C'est pourquoi nous avons tissé un réseau d'alliances stratégiques, tant au niveau national que continental, pour porter notre vision de l'excellence et garantir un impact durable.
+        </p>
     </div>
 
-    <div class="row g-4">
-        <!-- ACTU 1 -->
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="card h-100 border-0 shadow-sm rounded overflow-hidden">
-                <img src="img/img9.jpeg" class="card-img-top" alt="Projet Ma Vidange"
-                     style="height: 250px; width: 100%; object-fit: cover; object-position: center;">
-                <div class="card-body p-4">
-                    <h5 class="card-title text-primary">Projet "Ma Vidange" : L'innovation au service des usagers</h5>
-                    <p class="card-text">
-                        En partenariat avec l'ONAS, l'AAAS développe l'application mobile "Ma Vidange". Cette plateforme interactive permettra aux usagers de commander une vidange en quelques clics et de contacter le camion le plus proche grâce à un système de géolocalisation. Pour les professionnels, l'application sera un puissant outil de gestion de flotte, d'optimisation des trajets et de suivi comptable grâce aux modules de paiement intégrés (Mobile Money, Carte bancaire).
-                    </p>
+    <!-- Section : Rayonnement panafricain -->
+    <div class="wow fadeInUp" data-wow-delay="0.3s">
+        <h3 class="fw-bold text-dark mb-4">🌍 Un Rayonnement Panafricain</h3>
+        <div class="row g-4">
+
+            <!-- PASA -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0 rounded-3">
+                    <div class="card-body text-center">
+                        <img src="img/pasa.png" alt="PASA" class="img-fluid mb-3" style="max-height: 120px;">
+                        <h5 class="fw-bold text-dark">Pan-African Association of Sanitation Actors (PASA)</h5>
+                        <p class="text-muted" style="text-align: justify;">
+                            Nous sommes fiers d'être l'un des membres fondateurs de cette organisation panafricaine. 
+                            Cette implication au plus haut niveau est incarnée par la présidence de PASA, assurée par le Président de l'AAAS lui-même, 
+                            plaçant notre association au cœur des décisions stratégiques pour le continent.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AfWA -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0 rounded-3">
+                    <div class="card-body text-center">
+                        <img src="img/aaea.jpeg" alt="AAEA / AfWA" class="img-fluid mb-3" style="max-height: 120px;">
+                        <h5 class="fw-bold text-dark">Association Africaine de l'Eau et de l'Assainissement (AAEA / AfWA)</h5>
+                        <p class="text-muted" style="text-align: justify;">
+                            En tant que membre actif, nous contribuons activement à l'amélioration des standards. 
+                            Notre expertise est reconnue par la nomination de notre Secrétaire Général au poste de 
+                            Président du <em>Groupe Spécialisé sur l'Assainissement</em> de l'AAEA.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section : Ancrage national -->
+    <div class="mt-5 wow fadeInUp" data-wow-delay="0.4s">
+        <h3 class="fw-bold text-dark mb-4">🇸🇳 Ancrage National et Partenariats Clés</h3>
+        <p style="color: white;">
+            Au Sénégal, notre action est renforcée par des partenariats solides avec les institutions publiques et financières 
+            qui façonnent l'avenir de notre pays. Ces alliances sont le moteur de notre modernisation et de notre croissance.
+        </p>
+
+        <div class="row g-4 mt-4">
+            <!-- ONAS -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0 rounded-3">
+                    <div class="card-body text-center">
+                        <img src="img/onas.png" alt="ONAS" class="img-fluid mb-3" style="max-height: 120px;">
+                        <h5 class="fw-bold text-dark">Office National de l’Assainissement du Sénégal (ONAS)</h5>
+                        <p class="text-muted" style="text-align: justify;">
+                            Nous travaillons main dans la main avec les entités de tutelle pour aligner nos actions sur 
+                            les stratégies nationales, améliorer la réglementation et garantir un service de qualité à la population.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BNDE -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0 rounded-3">
+                    <div class="card-body text-center">
+                        <img src="img/bnde.jpeg" alt="BNDE" class="img-fluid mb-3" style="max-height: 120px;">
+                        <h5 class="fw-bold text-dark">Banque Nationale pour le Développement Économique (BNDE)</h5>
+                        <p class="text-muted" style="text-align: justify;">
+                            En tant que partenaire stratégique, la BNDE nous accompagne dans le financement de la modernisation 
+                            des équipements et soutient le développement économique de nos membres.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DER -->
+            <div class="col-md-6 mx-auto">
+                <div class="card h-100 shadow-sm border-0 rounded-3">
+                    <div class="card-body text-center">
+                        <img src="img/der.jpeg" alt="DER/FJ" class="img-fluid mb-3" style="max-height: 120px;">
+                        <h5 class="fw-bold text-dark">Délégation Générale à l’Entrepreneuriat Rapide (DER/FJ)</h5>
+                        <p class="text-muted" style="text-align: justify;">
+                            Ce partenariat essentiel nous permet de stimuler l'innovation, de professionnaliser les jeunes entrepreneurs 
+                            du secteur et de renforcer la chaîne de valeur de l'assainissement.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- ACTU 2 -->
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="card h-100 border-0 shadow-sm rounded overflow-hidden">
-                <img src="img/n3.jpeg" class="card-img-top" alt="Projet PARC"
-                     style="height: 250px; width: 100%; object-fit: cover; object-position: center;">
-                <div class="card-body p-4">
-                    <h5 class="card-title text-primary">Le PARC : Renouvellement des Camions de Vidange</h5>
-                    <p class="card-text">
-                        L'AAAS est partenaire du <strong>Projet d’Appui au Renouvellement des Camions de vidange (PARC)</strong> lancé le 18 février 2021. Ce projet majeur vise à remplacer les véhicules vétustes par 254 camions neufs, avec un coût global de 12 milliards de FCFA sur 5 ans. Il s'agit d'une étape cruciale pour améliorer la qualité et la sécurité du service de vidange au Sénégal.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- ACTU 3 -->
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="card h-100 border-0 shadow-sm rounded overflow-hidden">
-                <img src="img/img3.jpg" class="card-img-top" alt="Programme PSMBV"
-                     style="height: 250px; width: 100%; object-fit: cover; object-position: center;">
-                <div class="card-body p-4">
-                    <h5 class="card-title text-primary">Le PSMBV : Structurer le Marché des Boues de Vidange</h5>
-                    <p class="card-text">
-                        L'association est à la fois acteur et bénéficiaire du Programme de Structuration du Marché des Boues de Vidange (PSMBV). Ce programme vise à :  
-                        ​Encourager le développement du secteur privé de l'assainissement.  
-                        ​Augmenter la demande pour les services de vidange mécanique.  
-                        ​Améliorer la qualité du service offert par les opérateurs.
-                    </p>
-                </div>
-            </div>
-        </div>
+        <p class="mt-5" style="color: white;">
+            Chacun de ces partenariats est une pierre angulaire de notre mission. 
+            Ensemble, nous construisons l'avenir d'un assainissement moderne, durable et performant 
+            pour le Sénégal et pour l'Afrique.
+        </p>
     </div>
 </div>
-<!-- Actualités End -->
+
+<style>
+.card img {
+    transition: transform 0.4s ease;
+}
+.card:hover img {
+    transform: scale(1.07);
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(39, 211, 245, 0.3);
+}
+</style>
+
+
+
 
      <!-- Footer Start -->
 <div class="container-fluid bg-dark text-light mt-5 pt-5 wow fadeInUp" data-wow-delay="0.1s">

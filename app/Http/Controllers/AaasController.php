@@ -26,6 +26,11 @@ class AaasController extends Controller
         return view('missions');
     }
 
+     // Page : Nos Partenaires
+     public function partenaires()
+     {
+         return view('partenaires');
+     }
     // Page : Actualités
     public function actualites()
     {
