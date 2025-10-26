@@ -55,7 +55,7 @@
             <div class="col-lg-4 text-center text-lg-end">
             <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://x.com/AaasSenegal"><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://web.facebook.com/profile.php?id=61582721228095&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"><i class="fab fa-facebook-f fw-normal"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in fw-normal"></i></a>
                 </div>
             </div>
@@ -162,50 +162,55 @@
             <h1 class="mb-0 text-primary">Notre Équipe de Direction</h1>
         </div>
         <div class="row g-5 justify-content-center">
-            <!-- Directeur -->
-            <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.2s">
-                <div class="team-item bg-white rounded shadow overflow-hidden text-center p-4 h-100">
-                    <div class="position-relative mx-auto mb-4" style="width: 300px; height: 300px;">
-                        <img class="img-fluid rounded-circle border border-3 border-primary w-100 h-100 object-fit-cover" 
-                             src="img/dg.jpeg" 
-                             alt="Directeur AAAS">
-                    </div>
-                    <h4 class="text-primary mb-1">Ibra Sow</h4>
-                    <p class="text-muted mb-3">Président Directeur Général</p>
-                    <p class="text-dark" style="font-size: 0.95rem;">
-                        M. Ibra Sow dirige l’AAAS depuis sa création. Visionnaire et engagé, il œuvre pour la
-                        professionnalisation des acteurs de l’assainissement et le renforcement du secteur à l’échelle nationale.
-                    </p>
-                    <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-outline-primary btn-square rounded-circle me-2" href="https://x.com/AaasSenegal"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-primary btn-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-primary btn-square rounded-circle" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+    <!-- Directeur -->
+    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.2s">
+        <div class="team-item bg-white rounded shadow overflow-hidden text-center p-4 h-100">
+            <div class="position-relative mx-auto mb-4" style="width: 300px; height: 300px; overflow: hidden; border-radius: 50%;">
+                <img 
+                    src="img/dg.jpeg" 
+                    alt="Directeur AAAS"
+                    style="width: 100%; height: 100%; object-fit: contain; object-position: center; border-radius: 50%; border: 3px solid var(--bs-primary); background-color: #f8f9fa;"
+                >
             </div>
-
-            <!-- Secrétaire -->
-            <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.4s">
-                <div class="team-item bg-white rounded shadow overflow-hidden text-center p-4 h-100">
-                    <div class="position-relative mx-auto mb-4" style="width: 300px; height: 300px;">
-                        <img class="img-fluid rounded-circle border border-3 border-primary w-100 h-100 object-fit-cover" 
-                             src="img/se.jpeg" 
-                             alt="Secrétaire AAAS">
-                    </div>
-                    <h4 class="text-primary mb-1">Mamadou Ndiour</h4>
-                    <p class="text-muted mb-3">Secrétaire Générale</p>
-                    <p class="text-dark" style="font-size: 0.95rem;">
-                        M. Mamadou Ndiour assure la coordination administrative et la gestion des projets de l’association, 
-                        avec un engagement constant pour la transparence et la bonne gouvernance.
-                    </p>
-                    <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-outline-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-primary btn-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+            <h4 class="text-primary mb-1">Ibra Sow</h4>
+            <p class="text-muted mb-3">Président de l'AAAS</p>
+            <p class="text-dark" style="font-size: 0.95rem;">
+                M. Ibra Sow dirige l’AAAS depuis sa création. Visionnaire et engagé, il œuvre pour la
+                professionnalisation des acteurs de l’assainissement et le renforcement du secteur à l’échelle nationale.
+            </p>
+            <div class="d-flex justify-content-center mt-3">
+                <a class="btn btn-outline-primary btn-square rounded-circle me-2" href="https://x.com/AaasSenegal"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square rounded-circle" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
+    </div>
+
+    <!-- Secrétaire -->
+    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.4s">
+        <div class="team-item bg-white rounded shadow overflow-hidden text-center p-4 h-100">
+            <div class="position-relative mx-auto mb-4" style="width: 300px; height: 300px; overflow: hidden; border-radius: 50%;">
+                <img 
+                    src="img/se.jpeg" 
+                    alt="Secrétaire AAAS"
+                    style="width: 100%; height: 100%; object-fit: contain; object-position: center; border-radius: 50%; border: 3px solid var(--bs-primary); background-color: #f8f9fa;"
+                >
+            </div>
+            <h4 class="text-primary mb-1">Mamadou Ndiour</h4>
+            <p class="text-muted mb-3">Secrétaire Général</p>
+            <p class="text-dark" style="font-size: 0.95rem;">
+                M. Mamadou Ndiour assure la coordination administrative et la gestion des projets de l’association, 
+                avec un engagement constant pour la transparence et la bonne gouvernance.
+            </p>
+            <div class="d-flex justify-content-center mt-3">
+                <a class="btn btn-outline-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
     </div>
 </div>
 <!-- Équipe de direction End -->
@@ -298,7 +303,7 @@
                         </form>
                         <div class="d-flex justify-content-center gap-2">
                             <a class="btn btn-light btn-square rounded-circle" href="https://x.com/AaasSenegal"><i class="fab fa-twitter text-primary"></i></a>
-                            <a class="btn btn-light btn-square rounded-circle" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a class="btn btn-light btn-square rounded-circle" href="https://web.facebook.com/profile.php?id=61582721228095&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"><i class="fab fa-facebook-f text-primary"></i></a>
                             <a class="btn btn-light btn-square rounded-circle" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in text-primary"></i></a>
                         </div>
                     </div>
@@ -322,7 +327,7 @@
                 </div>
                 <div class="d-flex gap-3 mt-3">
                     <a class="btn btn-primary btn-sm rounded" href="https://x.com/AaasSenegal"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-primary btn-sm rounded" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-primary btn-sm rounded" href="https://web.facebook.com/profile.php?id=61582721228095&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-primary btn-sm rounded" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>

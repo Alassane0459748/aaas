@@ -56,7 +56,7 @@
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://x.com/AaasSenegal"><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://web.facebook.com/profile.php?id=61582721228095&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"><i class="fab fa-facebook-f fw-normal"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in fw-normal"></i></a>
                 </div>
             </div>
@@ -245,10 +245,11 @@
                 <div class="card h-100 border-0 shadow rounded overflow-hidden">
                     <img class="card-img-top" src="img/img2.jpg" alt="Actualité 3">
                     <div class="card-body p-4">
-                        <h5 class="card-title fw-bold">Projet Eau Propre</h5>
+                        <h5 class="card-title fw-bold"> L'Économie Circulaire
+                        </h5>
                         <p class="card-text">
-                            Un projet innovant porté par l’AAAS pour améliorer l’accès à l’eau potable 
-                            et renforcer les services d’assainissement dans les zones défavorisées.
+                        ​L'AAAS place l'innovation au cœur de sa stratégie d'économie circulaire. Nous envisageons d'implémenter de nouvelles technologies pour la réutilisation des eaux traitées, offrant ainsi un avantage compétitif décisif aux activités locales en leur assurant un accès durable à l'eau.
+                        ​Parallèlement, notre démarche vise un impact positif sur la biodiversité. En optimisant la gestion des boues, nous réduisons drastiquement leur transport, ce qui permet d'alléger significativement l'empreinte carbone de nos opérations.
                         </p>
                     </div>
                 </div>
@@ -299,7 +300,7 @@
                         </form>
                         <div class="d-flex justify-content-center gap-2">
                             <a class="btn btn-light btn-square rounded-circle" href="https://x.com/AaasSenegal"><i class="fab fa-twitter text-primary"></i></a>
-                            <a class="btn btn-light btn-square rounded-circle" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a class="btn btn-light btn-square rounded-circle" href="https://web.facebook.com/profile.php?id=61582721228095&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"><i class="fab fa-facebook-f text-primary"></i></a>
                             <a class="btn btn-light btn-square rounded-circle" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in text-primary"></i></a>
                         </div>
                     </div>
@@ -323,7 +324,7 @@
                 </div>
                 <div class="d-flex gap-3 mt-3">
                     <a class="btn btn-primary btn-sm rounded" href="https://x.com/AaasSenegal"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-primary btn-sm rounded" href="https://www.facebook.com/profile.php?id=61582521535450"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-primary btn-sm rounded" href="https://web.facebook.com/profile.php?id=61582721228095&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-primary btn-sm rounded" href="https://www.linkedin.com/in/aaas-senegal-970a9738a/"><i class="fab fa-linkedin-in"></i></a>
                    
                 </div>
