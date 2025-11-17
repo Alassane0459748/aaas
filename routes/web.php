@@ -13,3 +13,6 @@ Route::get('/actualites', [AaasController::class, 'actualites'])->name('actualit
 Route::get('/evenements', [AaasController::class, 'evenements'])->name('evenements');
 Route::get('/contact', [AaasController::class, 'contact'])->name('contact');
 Route::post('/contact', [AaasController::class, 'send'])->name('contact.send');
+Route::get('/profile/mamadou-ndiour', function () {
+    return view('profiles.mamadou-ndiour');
+});
