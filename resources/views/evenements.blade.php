@@ -138,6 +138,51 @@
     </div>
 
     <div class="row g-4">
+        <!-- Nouvel Événement : ALERTE SÉCURITÉ-SANTÉ -->
+<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="card h-100 shadow border-0 rounded-3 overflow-hidden">
+    <img src="{{ asset('img/ev1.jpeg') }}" 
+     class="card-img-top"
+     alt="Alerte santé AAAS"
+     style="height: 250px; width: 100%; object-fit: cover; object-position: top;">
+
+
+        <div class="card-body p-4">
+            <span class="badge bg-danger mb-2 px-3 py-2">Urgent</span>
+            <h5 class="card-title text-primary fw-bold mb-3">
+                🚨 ALERTE SÉCURITÉ-SANTÉ | L’AAAS Passe à l’Action !
+            </h5>
+
+            <p class="card-text text-muted">
+                L’AAAS lance une initiative majeure de protection sanitaire destinée à ses chauffeurs,
+                conformément aux recommandations de la norme <strong>ISO 24521</strong>.
+            </p>
+
+            <p class="card-text text-muted">
+                <strong>Objectif :</strong> Renforcer la sécurité sanitaire des 106 chauffeurs formés à la norme,
+                grâce à la mise à disposition de carnets de vaccination et d’une vaccination adaptée aux risques du métier.
+            </p>
+
+            <ul class="text-muted" style="padding-left: 18px;">
+                <li><strong>Qui :</strong> Les 106 chauffeurs certifiés ISO 24521</li>
+                <li><strong>Quoi :</strong> Vaccination + carnet sanitaire renforcé</li>
+                <li><strong>Quand :</strong> Dimanche 30</li>
+                <li><strong>Heure :</strong> 9h00</li>
+                <li><strong>Où :</strong> Infirmerie de la Station d’Épuration de Camberène</li>
+            </ul>
+
+            <p class="card-text text-muted">
+                Cette action vise à garantir la santé, la sécurité et la continuité d’un service de qualité pour
+                tous les Sénégalais.
+            </p>
+        </div>
+
+        <div class="card-footer bg-light border-0 text-end">
+            <small class="text-primary fw-semibold">📅 2025</small>
+        </div>
+    </div>
+</div>
+
 
         <!-- Nouvel Événement : Projet PARC -->
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
