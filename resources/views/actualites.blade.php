@@ -138,6 +138,65 @@
     </div>
 
     <div class="row g-4">
+  <!-- ACTU 4 avec 7 images -->
+<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+    <div class="card h-100 border-0 shadow-sm rounded overflow-hidden">
+        <!-- Carousel avec 7 images -->
+        <div id="carouselActu4" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/touba1.jpeg" class="d-block w-100" alt="Vaccination 1" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/touba2.jpeg" class="d-block w-100" alt="Vaccination 2" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/touba3.jpeg" class="d-block w-100" alt="Vaccination 3" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/touba4.jpeg" class="d-block w-100" alt="Vaccination 4" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/touba5.jpeg" class="d-block w-100" alt="Vaccination 5" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/touba6.jpeg" class="d-block w-100" alt="Vaccination 6" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/touba7.jpeg" class="d-block w-100" alt="Vaccination 7" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/touba8.jpeg" class="d-block w-100" alt="Vaccination 5" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/touba9.jpeg" class="d-block w-100" alt="Vaccination 6" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/touba10.jpeg" class="d-block w-100" alt="Vaccination 7" style="height: 250px; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Contrôles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselActu4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselActu4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+
+        <div class="card-body p-4">
+            <h5 class="card-title text-primary">Vaccination et Don de Sang : Retour en Images</h5>
+            <p class="card-text">
+                Retour en images sur l'événement de vaccination et don de sang qui a eu lieu ce matin à l'infirmerie de l'ONAS.  
+                L'AAAS est fière de soutenir ces actions de santé publique. Votre participation a fait la différence.
+            </p>
+        </div>
+    </div>
+</div>
+
         <!-- ACTU 1 -->
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="card h-100 border-0 shadow-sm rounded overflow-hidden">
