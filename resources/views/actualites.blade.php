@@ -138,6 +138,67 @@
     </div>
 
     <div class="row g-4">
+        <!-- ACTU 5 : Formation à Thiès + 4 images -->
+<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+    <div class="card h-100 border-0 shadow-sm rounded overflow-hidden">
+
+        <!-- Carousel -->
+        <div id="carouselActu5" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/thies1.jpeg" class="d-block w-100" alt="Thiès 1"
+                         style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/thies2.jpeg" class="d-block w-100" alt="Thiès 2"
+                         style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/thies3.jpeg" class="d-block w-100" alt="Thiès 3"
+                         style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/thies4.jpeg" class="d-block w-100" alt="Thiès 4"
+                         style="height: 250px; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Contrôles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselActu5" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselActu5" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+
+        <div class="card-body p-4">
+            <h5 class="card-title text-primary">Thiès s’engage pour l’Assainissement Autonome</h5>
+            <p class="card-text">
+                Thiès rejoint Dakar et Touba dans la dynamique de formation à l’assainissement autonome 
+                et à la norme ISO 24521.  
+                <br><br>
+
+                BORDA, partenaire clé, a soutenu la formation et fourni des EPI aux chauffeurs.  
+                <br><br>
+
+                Les Services d’Hygiène ont rappelé les règles essentielles :  
+                – Stop au dépotage sauvage  
+                – Respect des règlementations  
+                – Bonnes pratiques d’hygiène  
+                <br><br>
+
+                L’AAAS poursuit son objectif : former tous les opérateurs du Sénégal.  
+                <br><br>
+
+                Prochaine étape : vaccination et remise des cartes aux chauffeurs formés.
+            </p>
+        </div>
+    </div>
+</div>
+
   <!-- ACTU 4 avec 7 images -->
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
     <div class="card h-100 border-0 shadow-sm rounded overflow-hidden">
